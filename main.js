@@ -8,7 +8,7 @@ var velocidad = 1;
 var volumen = 1;
 var cancion = "";
 function preload(){
-    cancion = loadSound("TWICE feel special.mp3");
+    cancion = loadSound("TWICEFeelSpecial.mp3");
 }
 function setup(){
     canvas = createCanvas(400,400);
