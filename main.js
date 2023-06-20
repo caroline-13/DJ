@@ -64,10 +64,10 @@ function usarResultados(resultados){
     if(resultados.length>0){
         console.log(resultados);
         manoIzquierdaX = resultados[0].pose.leftWrist.x;
-        manoIzquierdaY = resultados[0].pose.leftWrist.Y;
+        manoIzquierdaY = resultados[0].pose.leftWrist.y;
 
         manoDerechaX = resultados[0].pose.rightWrist.x;
-        manoDerechaY = resultados[0].pose.rightWrist.Y;
+        manoDerechaY = resultados[0].pose.rightWrist.y;
         
         manoIzquierdaPuntos = resultados[0].pose.keypoints[9].score;
         manoDerechaPuntos = resultados[0].pose.keypoints[10].score;
